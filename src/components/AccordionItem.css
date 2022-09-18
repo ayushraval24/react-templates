@@ -1,0 +1,18 @@
+.accordion-question{
+    background-color: purple;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.accordion-answer{
+    background-color: plum;
+    color: purple;
+    font-size: 1rem;
+    height: 0;
+    overflow: hidden;
+}
+
+.accordion-answer.open{
+    height: auto;
+    padding: 15px;
+}
